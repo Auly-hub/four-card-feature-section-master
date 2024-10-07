@@ -1,0 +1,246 @@
+@Colors{
+
+    Primary
+
+    - Red: hsl(0, 78%, 62%)
+    - Cyan: hsl(180, 62%, 55%)
+    - Orange: hsl(34, 97%, 64%)
+    - Blue: hsl(212, 86%, 64%)
+    
+    Neutral
+
+    - Very Dark Blue: hsl(234, 12%, 34%)
+    - Grayish Blue: hsl(229, 6%, 66%)
+    - Very Light Gray: hsl(0, 0%, 98%)
+    - Dark Blue: hsl(0, 0%, 0%)
+}
+
+@font-face{
+    .poppins-extralight {
+        font-family: "Poppins", sans-serif;
+        font-weight: 200;
+        font-style: normal;
+      }
+      
+      .poppins-regular {
+        font-family: "Poppins", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+      }
+      
+      .poppins-semibold {
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+        font-style: normal;
+      }
+
+    -  grand-size: 40px;
+    -  normal-size: 18px;
+    -  small-size: 14px
+      
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+
+body{
+    margin-top: 3rem;
+    background: hsl(0, 0%, 98%) ;
+    font-family: 'poppins', sans-serif;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+main{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.text-section h1{
+    color: hsl(229, 6%, 66%);
+    font-size: 50px;
+    padding-bottom: 15px;
+}
+
+.grand {
+    color: hsl(234, 12%, 34%);
+    font-size: var(grand-size);
+    font-weight:bolder;
+
+}
+
+.text-section p{
+    color:  hsl(229, 6%, 66%);
+    font-size: var(.poppins-extralight);
+    /* max-width: 500px; */
+    text-align:center;
+}
+
+.Cards-section{
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center;
+    gap:3rem;
+    margin-bottom: 5rem;
+}
+
+.Cards-section h3{
+    font-size: 25px;
+    color:  hsl(0, 0%, 0%);
+    padding-bottom: 20px;
+}
+
+.Cards-section p{
+    font-size: 14px;
+    color: hsl(229, 6%, 66%);
+    padding-bottom: 4rem;
+}
+
+.Cards-section img{
+    display: flex;
+    align-items: right;
+    justify-content: right;
+    margin-left: 17rem;
+}
+
+.card-Mb-A{
+    margin-top: 10rem;
+    width: 450px;
+    height: 300px;
+    align-items: right;
+    justify-content: right;
+    background:hsl(0, 0%, 98%);
+    border: 1px solid hsl(0, 0%, 98%);
+    border-radius: 8px;
+    border-top: 8px solid  hsl(180, 62%, 55%);
+    box-shadow: -23px -4px 113px -10px rgba(0,0,0,0.44);
+    -webkit-box-shadow: -23px -4px 113px -10px rgba(0,0,0,0.44);
+    -moz-box-shadow: -23px -4px 113px -10px rgba(0,0,0,0.44);
+    text-align: left;
+    padding-top: 3rem;
+    padding-left: 2rem;
+}
+
+.card-Mb-B{
+    margin-top: 10rem;
+    width: 450px;
+    height: 300px;
+    align-items: right;
+    justify-content: right;
+    background:hsl(0, 0%, 98%);
+    border: 1px solid hsl(0, 0%, 98%);
+    border-radius: 8px;
+    border-top: 8px solid hsl(212, 86%, 64%);
+    box-shadow: -23px -4px 113px -10px rgba(0,0,0,0.44);
+    -webkit-box-shadow: -23px -4px 113px -10px rgba(0,0,0,0.44);
+    -moz-box-shadow: -23px -4px 113px -10px rgba(0,0,0,0.44);
+    text-align: left;
+    padding-top: 3rem;
+    padding-left: 2rem;
+}
+
+.card-Mb-C{
+    width: 450px;
+    height: 300px;
+    align-items: right;
+    justify-content: right;
+    background:hsl(0, 0%, 98%);
+    border: 1px solid hsl(0, 0%, 98%);
+    border-radius: 8px;
+    border-top: 8px solid  hsl(0, 78%, 62%);
+    box-shadow: -23px -4px 113px -10px rgba(0,0,0,0.44);
+    -webkit-box-shadow: -23px -4px 113px -10px rgba(0,0,0,0.44);
+    -moz-box-shadow: -23px -4px 113px -10px rgba(0,0,0,0.44);
+    text-align: left;
+    padding-top: 3rem;
+    padding-left: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.card-Mb-D{
+    width: 450px;
+    height: 300px;
+    align-items: right;
+    justify-content: right;
+    background:hsl(0, 0%, 98%);
+    border: 1px solid hsl(0, 0%, 98%);
+    border-radius: 8px;
+    border-top: 8px solid   hsl(34, 97%, 64%);
+    box-shadow: -23px -4px 113px -10px rgba(0,0,0,0.44);
+    -webkit-box-shadow: -23px -4px 113px -10px rgba(0,0,0,0.44);
+    -moz-box-shadow: -23px -4px 113px -10px rgba(0,0,0,0.44);
+    text-align: left;
+    padding-top: 3rem;
+    padding-left: 2rem;
+}
+
+footer{
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+@media (max-width: 375px) {
+   
+    body{
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .Cards-section {
+        flex-direction: column;   
+        display: flex;           
+        align-items: center;     
+        gap: 2rem;                
+        padding: 0 1rem;          
+    }
+   
+    .card-Mb-A, .card-Mb-B, .card-Mb-C, .card-Mb-D {
+        width: 100%;             
+        max-width: 280px;
+        height: 190px;
+        margin: 0.1rem;           
+        text-align: left;   
+        align-items: right;    
+        padding: 1rem 1rem;       
+    }
+
+    .card-Mb-D{
+        margin-top: 1rem;
+    } 
+
+    .Cards-section img {
+        width: 50px;              
+        height: auto;   
+            display: flex;
+            align-items: right;
+            justify-content: right;
+            margin-left: 10rem;
+    }
+
+    .text-section h1 {
+        font-size: 20px;          
+        padding-bottom: -10rem;     
+    }
+
+    .text-section p {
+        font-size: 12px; 
+        max-width: 400px;        
+    }
+
+    .Cards-section h3 {
+        font-size: 15px;         
+        padding-bottom: 10px;    
+    }
+
+    .Cards-section p {
+        font-size: 10px;
+
+    }
+}
